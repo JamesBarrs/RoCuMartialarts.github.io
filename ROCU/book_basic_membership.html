@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Class - RoCu Martial Arts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>RoCu Martial Arts</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="classes.html">Classes & Prices</a></li>
+                    <li><a href="timetable.html">Timetable</a></li>
+                    <li><a href="instructors.html">Instructors</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="book-class" class="section">
+        <div class="container">
+            <h2>Book a Class</h2>
+            <div class="class-item">
+                <form action="#" method="post">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="class">Select Class:</label><br>
+                    <select id="class" name="class" required>
+                        <option value="Basic Membership">Basic Membership</option>
+                        <option value="Intermediate Membership">Intermediate Membership</option>
+                        <option value="Advanced Membership">Advanced Membership</option>
+                        <option value="Elite Membership">Elite Membership</option>
+                        <option value="Private Tuition">Private Tuition</option>
+                        <option value="Junior Membership">Junior Membership</option>
+                        <option value="Specialist Courses">Specialist Courses</option>
+                    </select><br><br>
+
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4"></textarea><br><br>
+
+                    <input type="submit" value="Sign Up">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 RoCu Martial Arts. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
